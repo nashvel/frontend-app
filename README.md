@@ -38,13 +38,7 @@ frontend-app/
 └── tsconfig.json  
 ```
 
-### 3. Install Dependencies
-If you haven't installed dependencies yet, run:
-```bash
-npm install 
-```
-
-### 4. Start the Development Server
+### 3. Start the Development Server
 Run the following command to start the development server:
 ```bash
 npm run dev
