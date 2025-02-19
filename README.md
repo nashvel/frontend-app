@@ -1,4 +1,4 @@
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/media/f94135193d842e240e9c1267e4d9ca89.gif" />
+<img align="right" alt="Coding" width="400" src="https://giffiles.alphacoders.com/221/221624.gif" />
 
 # Frontend App
 
