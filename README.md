@@ -12,7 +12,7 @@ Ensure your project follows this structure:
 
 ```
 frontend-app/
-├── node_modules/   # move your node_modules here,so that it will appear
+├── node_modules/   # move your node_modules here, so that it will appear
 ├── public/        
 │   ├── index.html  
 │   └── favicon.ico
