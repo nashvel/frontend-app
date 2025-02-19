@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/media/f94135193d842e240e9c1267e4d9ca89.gif" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Frontend App
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Move Your `node_modules` Folder
+Make sure your `node_modules` directory is placed inside the `frontend-app` folder. If it's outside, move it inside to match the expected project structure.
 
-## Expanding the ESLint configuration
+### 2. Project Structure
+Ensure your project follows this structure:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+frontend-app/
+├── node_modules/   # move your node_modules here,so that it will appear
+├── public/        
+│   ├── index.html  
+│   └── favicon.ico
+├── src/            
+│   ├── components/ 
+│   ├── pages/      
+│   ├── styles/     
+│   ├── App.tsx    
+│   ├── main.tsx  
+│   └── ...other files
+├── .gitignore     
+├── package.json  
+├── README.md     
+└── tsconfig.json  
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 3. Install Dependencies
+If you haven't installed dependencies yet, run:
+```bash
+npm install 
 ```
+
+### 4. Start the Development Server
+Run the following command to start the development server:
+```bash
+npm run dev
+```
+
