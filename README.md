@@ -1,5 +1,10 @@
 <img align="right" alt="Coding" width="400" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExanZhMjRxNnIxbXpnZDcyMnF5YnhvNHNqdW4xdGZzN3I5eGU5bm5iaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/53CSAPCGzFCrS/giphy.gif" />
 
+
+## 🌐 Socials:
+- *Jay Nashvel M. Quiblat* [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/nashvelll)
+
+
 # Frontend App
 
 ## Project Setup
