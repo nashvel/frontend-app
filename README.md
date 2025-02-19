@@ -25,9 +25,10 @@ frontend-app/
 │   ├── index.html  
 │   └── favicon.ico
 ├── src/            
-│   ├── components/ 
-│   ├── pages/      
-│   ├── styles/     
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
 │   ├── App.tsx    
 │   ├── main.tsx  
 │   └── ...other files
