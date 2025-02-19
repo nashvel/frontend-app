@@ -1,0 +1,11 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "rules": {
+    "operator-linebreak": "off",
+    "arrow-parens": "off",
+    "class-methods-use-this": "off",
+    "no-nested-ternary": "off",
+    "no-underscore-dangle": "off",
+    "no-console": "off"
+  }
+}
