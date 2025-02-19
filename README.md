@@ -1,4 +1,4 @@
-<img align="right" alt="Coding" width="400" src="https://giffiles.alphacoders.com/221/221624.gif" />
+<img align="right" alt="Coding" width="400" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExanZhMjRxNnIxbXpnZDcyMnF5YnhvNHNqdW4xdGZzN3I5eGU5bm5iaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/53CSAPCGzFCrS/giphy.gif" />
 
 # Frontend App
 
